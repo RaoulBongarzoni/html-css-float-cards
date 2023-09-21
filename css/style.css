@@ -1,4 +1,7 @@
 
+
+
+/* Layout generale */
 *{
     margin: 0;
     padding: 0;
@@ -9,9 +12,11 @@ html{
     font-family: 'Fredoka',sans-serif;
 }
 .contenitore{
-    margin: 3% 10% 3% 10%;
+    margin: 3% 15% 3% 15%;
 }    
 
+
+/* Introduzione */
 #titolo{
     color: rgb(229, 49, 112);
     text-align: center;
@@ -25,19 +30,37 @@ html{
 }
 
 
+/* layout etichette */
+
 .colonna{
     height: fit-content;
     float: left;
     width: 30%;
     background-color: rgb(15, 14, 23);
-    margin: 0% calc(10% / 6) 5% calc(10% / 6);
+    margin: 0% calc(10%  / 6) 5% calc(10% / 6);
 }
 
+/* layout cella interna */
+.cella{
+    line-height: 120%;
+    color: white;
+    font-weight: 200;
+}
+
+.cella *{  
+    margin: 4%; 
+    
+}
+.cella p a{
+    display: block;
+    text-decoration: none;
+    color: rgb(110, 203, 242);
+}
 
 .floating{
-    
+    margin-right: 3%;
     float: left;
-    width: 30%;
+    width: 33%;
 }
 
 .clearfix{
@@ -45,3 +68,5 @@ html{
     clear: both;
     display: table;
 }
+
+
