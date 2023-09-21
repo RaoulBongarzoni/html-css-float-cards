@@ -1,0 +1,47 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Fredoka',sans-serif;
+}
+.contenitore{
+    margin: 3% 10% 3% 10%;
+}    
+
+#titolo{
+    color: rgb(229, 49, 112);
+    text-align: center;
+    font-weight: 900;
+}
+
+#introduzione{  
+    text-align: center;
+    margin-top: 5%;
+    padding: 0% 1.5% 0% 1.5%;
+}
+
+
+.colonna{
+    height: fit-content;
+    float: left;
+    width: 30%;
+    background-color: rgb(15, 14, 23);
+    margin: 0% calc(10% / 6) 5% calc(10% / 6);
+}
+
+
+.floating{
+    
+    float: left;
+    width: 30%;
+}
+
+.clearfix{
+    content: "";
+    clear: both;
+    display: table;
+}
